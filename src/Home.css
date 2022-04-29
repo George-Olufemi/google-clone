@@ -1,0 +1,61 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    width: 25px;
+    margin-right: 15px;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid:hover {
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: lightgray;
+    padding: 3px;
+}
+
+.user {
+    width: 25px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    min-width: 13vh;
+    justify-content: space-between;
+}
+
+.home__body {
+    display: flex;
+    flex: 1;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body > img {
+    object-fit: contain;
+    height: 100px;
+}
